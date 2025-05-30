@@ -1,0 +1,28 @@
+﻿<Window x:Class="Sorts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sorts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1200">
+    <Grid RenderTransformOrigin="1.008,0.043">
+        <Label Content="Введите длину массива" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="250" Height="29"/>
+        <Label Content="1 - Сортировка пузырьком" HorizontalAlignment="Left" Margin="55,178,0,0" VerticalAlignment="Top" Width="160"/>
+        <Label Content="2 - Сортировка слиянием" HorizontalAlignment="Left" Margin="302,178,0,0" VerticalAlignment="Top" Width="160"/>
+        <Label Content="3 - Быстрая сортировка" HorizontalAlignment="Left" Margin="590,178,0,0" VerticalAlignment="Top" Width="160"/>
+        <Label Content="Выберите метод сортировки массива:" HorizontalAlignment="Left" Margin="10,77,0,0" VerticalAlignment="Top" Width="220" Height="29"/>
+        <Button x:Name="button1" Content="Начать сортировку" HorizontalAlignment="Left" Margin="79,117,0,0" VerticalAlignment="Top" Width="112" Click="button1_Click"/>
+        <Label x:Name="label1" Content="" HorizontalAlignment="Left" Margin="73,209,0,0" VerticalAlignment="Top" Width="124"/>
+        <Label x:Name="label2" Content="" HorizontalAlignment="Left" Margin="320,209,0,0" VerticalAlignment="Top" Width="124"/>
+        <Label x:Name="label3" Content="" HorizontalAlignment="Left" Margin="608,209,0,0" VerticalAlignment="Top" Width="124"/>
+        <Label Content="Отсортированный массив:" HorizontalAlignment="Left" Margin="106,318,0,0" VerticalAlignment="Top" Width="156" Height="29"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Margin="265,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="388"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="153,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="62"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="235,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="61"/>
+        <Label Content="Массив до сортировки:" HorizontalAlignment="Left" Margin="104,245,0,0" VerticalAlignment="Top" Width="156"/>
+        <TextBox x:Name="TextBox4" HorizontalAlignment="Left" Margin="265,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="389"/>
+        <Canvas x:Name="canvas1" Width = "400" Height="100" Background="LightGray" HorizontalAlignment="Left" Margin="400,450,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
